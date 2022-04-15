@@ -52,10 +52,31 @@ aside{
     padding: 20px;
 }
 
+.progress{
+    height: 5rem;
+}
+.tituloNiveles {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 8.5rem;
+}
+
+h3.h3institucional{
+    margin-bottom: 8.5rem;
+}
 section.minijuego{
     grid-area: minijuego;
     background-color: transparent;
     padding: 20px;
+}
+
+.card {
+    width: 20rem;
 }
 
 .minijuego{
@@ -71,6 +92,12 @@ section.minijuego{
     transform: translate(0px, 50%);
     
 }
+section #cardCursos{
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr;
+}
+
 
 section .info{
     grid-area: info;
@@ -132,7 +159,7 @@ footer.piedepagina {
 }
 
 .piedepagina .grupo-1 a {
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 10px;
     font-size: 1rem;
     font-weight: lighter;
