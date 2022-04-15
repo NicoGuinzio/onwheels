@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header{
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+.fondoEncabezado{
+    background-color: #0f0061;
+}
+
+.fotoEncabezado {
+    width: 30%;
+    margin: -10%;
+}
+
+h1 {
+    color: #ffb224;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#grid-section-y-aside {
+    display: grid;
+    grid-template-areas:
+    "aside info minijuego" ;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+aside{
+    grid-area: aside;
+    background-color: transparent;
+    padding: 20px;
+}
+
+section.minijuego{
+    grid-area: minijuego;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.minijuego{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-de-minijuego {
+    text-align: center;
+}
+/*TRANSFORMACION MINIJUEGO*/
+.juego-de-transformaciones :hover{
+    transform: translate(0px, 50%);
+    
+}
+
+section .info{
+    grid-area: info;
+    background-color: transparent;
+    padding: 20px;
+}
+/* .aside-y-section {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* aside{
+    flex: 30px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+section{
+    flex: 70%;
+    background-color: transparent;
+    padding: 20px;
+    flex-direction: row;
+} */
+
+footer.piedepagina {
+    padding: 5px;
+    text-align: center;
+    background-color: #0f0061;
+    border-top: white;
+    border: 20px;
+}
+
+.piedepagina {
+    background-color: #292828 ;
+}
+
+
+.piedepagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 0px 0px;
+}
+
+.piedepagina .grupo-1 h2 {
+    color: #ffffffea;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}
+
+.piedepagina .grupo-1 p {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.piedepagina .grupo-1 a {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.piedepagina .grupo-2  {
+        background-color: transparent;
+        padding: 0.2rem;
+        text-align: center;
+        color: #ffffff;
+        font-weight: lighter;
+        font-size: 0.7rem;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    nav, .row {
+        
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer,.piedepagina .grupo-1, .piedepagina .grupo2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*-----------------------------------------------------GALERIA CON GRID -------------------------------------------------------------------------*/
+/* section#galeria {
+    margin-top: 100px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.fotoGaleria {
+    width: 75%;
+    height: 100%;
+    border-radius: 20%;
+} */
+
+/*tablet*/
+/* @media (min-width:768px) {
+    #galeria {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+} */
+/*desktop*/
+/* @media (min-width: 1024px) {
+    #galeria {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+} */
+
+/*desktop + grande*/
+    /* @media (min-width: 1200px) {
+        #galeria {
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+    } */
