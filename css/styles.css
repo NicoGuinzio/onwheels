@@ -75,10 +75,6 @@ section.minijuego{
     padding: 20px;
 }
 
-.card {
-    width: 20rem;
-}
-
 .minijuego{
     display: flex;
     flex-direction: column;
@@ -92,12 +88,19 @@ section.minijuego{
     transform: translate(0px, 50%);
     
 }
-section #cardCursos{
-    display: grid;
-    grid-template-columns: 4fr;
-    grid-template-rows: 1fr;
-}
 
+section#cardCursos {
+     display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: space-around;
+     gap: 5rem;
+     margin: 5rem;
+}
+.espaciocard {
+    width: 30rem;
+    height: 100%;
+}
 
 section .info{
     grid-area: info;
@@ -177,12 +180,6 @@ footer.piedepagina {
     font-size: 1rem;
 }
 
-@media screen and (max-width: 700px) {
-    nav, .row {
-        
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width: 700px) {
     footer,.piedepagina .grupo-1, .piedepagina .grupo2 {
