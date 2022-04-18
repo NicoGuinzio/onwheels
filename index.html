@@ -23,7 +23,7 @@
         <!-- NAVBAR BOOTSTRAP -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Inicio</a>
+              <a class="navbar-brand" id="link de inicio" href="#">Inicio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-ico"></span>
               </button>
@@ -33,7 +33,7 @@
                     <a class="nav-link active " aria-current="page" href="paginas/BInscripciones/inscripciones.html">Inscripciones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="paginas/CInstitucional/Institucional.html">Institucional</a>
+                    <a class="nav-link" href="paginas/CInstitucional/quienessomos.html">Quienes somos</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -82,27 +82,50 @@
 <!-- FINAL NAV VIEJO SIN BOOTSTRAP -->
 
 
-    <div id="grid-section-y-aside">
-        <aside>
-            <h2>Aside</h2>
-            <p>Lorem ipsum dolorrr, sit amet consectetur adipisicing elit. Odit impedit soluta natus, eum, aliquid doloremque culpa laudantium ex esse, hic libero doloribus corrupti iste rerum iusto sint incidunt repellendus nobis.</p>
-        </aside>
+    <div>
+
+      <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner carouselInicio">
+            <div class="carousel-item carouselInicio active">
+              <img src="Img/OnWheels-11.png"  width="30%" hight="50%" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carouselInicio">
+              <img src="Img/OnWheels-08.png"  width="30%" hight="50%" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carouselInicio">
+              <img src="Img/OnWheels-05.png"  width="30%" hight="50%" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
 
         <section class="info">
-            <h2>Section</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui fugit repellendus quisquam similique expedita sit assumenda beatae. Eaque, explicabo voluptas earum officia unde dolore reprehenderit quidem nesciunt cum quaerat aperiam!</p>
+            <h2>Pilares</h2>
+            <div class="alert alert-primary" role="alert">
+              A simple primary alert—check it out!
+            </div>
+            
+            <div class="alert alert-success" role="alert">
+              A simple success alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert">
+              A simple danger alert—check it out!
+            </div>
         </section>
 
-        <section class="minijuego">
-            <h2 class="nombre-de-minijuego">Tenés 1 oportunidad para atrapar el mono y ganar un 50% de descuento</h2>
-            <div class="juego-de-transformaciones">
-                <img src="Img/kisspng-chimpanzee-monkey-royalty-free-photography-cute-little-monkey-5a97123463e073.5973642415198500364091.png" width="100%" height="100%" alt="">
-            </div>
-            <h3>¿Fallaste, no? yo tampoco pude a la primera.</h3>
-        </section>
     </div>
 
     <footer class="piedepagina">
+      <hr>
         <div class="grupo-1">
                 <div class="box">
                         <h2>VOLVER AL INICIO</h2>
@@ -126,12 +149,11 @@
                         <p> Nicolás Guinzio  </p>
                 </div>
         </div>
-<hr>
+      <hr>
         <div class="grupo-2">
             <small>&copy; 2022   -    Todos los derechos reservados.</small>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
