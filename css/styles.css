@@ -321,8 +321,6 @@ ul {
 
 .contact-form {
     background: #f46640a3;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
 }
 
 .contact-form form {
@@ -375,8 +373,6 @@ ul {
 .contact-info {
     background: #000;
     color: white;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
