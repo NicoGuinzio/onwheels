@@ -401,3 +401,50 @@ ul {
         text-align: left;
     }
 }
+
+/* EFECTO PARALLAX */
+p{
+    font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	margin:0 0 24px 0
+}
+
+.parallas, .main, .texto{margin:0 auto}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative
+}
+
+.texto-interior{
+	color:#fff;
+	font-size: 2rem;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:40%;
+	width: 80%;
+}
+
+h3.h3Inicio {
+    text-align: center;
+}
+	
+.img-uno{background-image: url("../Img/docentess.jpg")}
+
+.img-dos{background-image:url("../Img/MATERIALES.jpg")}
+
+.img-tres{background-image:url("../Img/videollamadas.jpg")}
+
+
+.texto{
+	padding:5%;
+	width: 90%
+}
+/* FIN EFECTO PARALLAX */
