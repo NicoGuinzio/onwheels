@@ -85,13 +85,16 @@ h3.h3institucional{
 }
 
 .imagenProfesoras {
-    text-align: center;
-    background-color: transparent;
-    box-shadow: 20px ;
+    width: 96%;
+max-width: 960px;
+margin: 0 auto;
 }
+
 .subImagenProfesoras {
     border-radius: 20%;
     box-shadow: 3rem #0000004d;
+    width: 100%;
+    height: auto;
 }
 
 section#cardCursos {
@@ -124,10 +127,7 @@ section .info{
     padding: 20px;
 }
 
-.aside-y-section {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 aside{
     background-color: transparent;
