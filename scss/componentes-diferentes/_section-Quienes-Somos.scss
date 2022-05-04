@@ -1,1 +1,17 @@
 @import "../base/colores", "../base/tipografia";
+
+.imagenProfesoras {
+    width: 96%;
+    max-width: 960px;
+    margin: 0auto;
+    .subImagenProfesoras {
+        border-radius: 20%;
+        border-width: 5rem;
+        width: 100%;
+        height: auto;
+        .border {
+            border: 0.5rem;
+            z-index: 0;
+        }
+    }
+}
