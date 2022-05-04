@@ -1,0 +1,13 @@
+//Base
+@import "./base/colores",
+"./base/tipografia",
+"./base/variables";
+
+//componentes de pagina iguales
+@import "./componentes-en-comun/header",
+"./componentes-en-comun/nav",
+"./componentes-en-comun/footer";
+
+//componentes de pagina diferentes
+@import "./componentes-diferentes/sectionParallax",
+"./componentes-diferentes/cards-de-curso"

@@ -1,0 +1,14 @@
+@import "./base/colores", "./base/tipografia";
+
+/*NAV*/
+.bg-light {
+    background-color: $color-primario!important;
+}
+
+.navbar-toggler {
+    background-color: $color-secundario-B;
+}
+
+.navbar-collapse {
+    justify-content: space-evenly;
+}

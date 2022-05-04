@@ -1,0 +1,11 @@
+@import "./colores", "./tipografia";
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: $fuente-primaria;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}

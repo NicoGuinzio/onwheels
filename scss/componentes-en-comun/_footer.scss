@@ -1,0 +1,71 @@
+@import "./base/colores", "./base/tipografia";
+
+/*Footer*/
+footer {
+    width: 100%;
+    height: 10rem;
+}
+
+.piedepagina {
+    text-align: center;
+    background-color: #ffffff;
+    border-top: $color-primario;
+    border: 20px;
+    background-color: $color-encabezado;
+
+    hr {
+        background-color: $color-primario;
+        height: 1%;
+    }
+}
+
+
+.grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 0px 0px;
+    background-color: $color-encabezado;
+}
+
+.box {
+    color: $color-primario;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-family: $fuente-primaria;
+
+
+    p a {
+        @extend .box;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    a {
+        @extend .box;
+    }
+}
+
+.grupo-2 {
+    background-color: transparent;
+    padding: 0.2rem;
+    text-align: center;
+    color: $color-primario;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: $color-encabezado;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    footer,
+    .piedepagina .grupo-1,
+    .piedepagina .grupo2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
