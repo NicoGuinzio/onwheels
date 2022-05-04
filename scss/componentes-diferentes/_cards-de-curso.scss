@@ -1,4 +1,4 @@
-@import "././base/colores", "././base/tipografia";
+@import "../base/colores", "../base/tipografia"
 
 section#cardCursos {
     display: flex;
@@ -11,5 +11,13 @@ section#cardCursos {
     .espaciocard {
         width: 30rem;
         height: 100%;
+        background-color: $color-fondotarjetas;
+
+        .btn {
+            display: block;
+            height: 4rem;
+            align-content: center;
+            font-size: 2rem;
+        }
     }
 }
