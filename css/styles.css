@@ -111,6 +111,8 @@ footer {
   text-align: center;
   top: 40%;
   width: 80%; }
+  .texto-interior #m {
+    color: black; }
 
 .texto {
   padding: 5%;
