@@ -1,17 +1,36 @@
 @import "../base/colores", "../base/tipografia";
 
+
+//section foto
 .imagenProfesoras {
     width: 96%;
     max-width: 960px;
-    margin: 0auto;
+    margin: 0 auto;
+    padding: 3rem 0 3rem 0;
+
     .subImagenProfesoras {
         border-radius: 20%;
         border-width: 5rem;
         width: 100%;
         height: auto;
-        .border {
-            border: 0.5rem;
-            z-index: 0;
+    }
+}
+
+aside {
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+    .textoTituloPresentacion {
+        font-family: 'Poppins', sans-serif;
+
+        .textoPresentacion {
+            text-align: justify;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
         }
     }
 }
