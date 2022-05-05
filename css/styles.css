@@ -172,6 +172,9 @@ aside {
 .border {
   border: 0.5rem solid #24b464 !important; }
 
+.navbar-collapse {
+  justify-content: space-evenly !important; }
+
 /*CONTACTO*/
 .imagencontacto {
   align-content: center;
