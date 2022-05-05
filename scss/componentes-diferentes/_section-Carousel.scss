@@ -1,0 +1,15 @@
+@import "../base/colores", "../base/tipografia";
+
+//Carousel
+.carousel {
+    width: 75%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 0;
+}
+.border {
+    border: 0.5rem solid $color-secundario-G !important;
+}

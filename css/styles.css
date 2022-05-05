@@ -5,7 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: white; }
+  background-color: #ffffff; }
 
 /*Header*/
 header {
@@ -79,7 +79,6 @@ footer {
     display: flex;
     flex-direction: column; } }
 
-/*Efecto Parallax Inicio*/
 .parallax,
 .main,
 .texto {
@@ -160,3 +159,15 @@ aside {
       text-align: justify;
       width: 100%;
       font-family: 'Poppins', sans-serif; }
+
+.carousel {
+  width: 75%;
+  margin: auto;
+  padding-top: 2rem; }
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 0; }
+
+.border {
+  border: 0.5rem solid #24b464 !important; }
